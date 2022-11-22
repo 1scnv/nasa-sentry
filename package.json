@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "core-js": "^3.26.1"
+  },
+  "name": "nasa-sentry",
+  "description": "NASA API to monitoring objects with risk to collision with Earth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1scnv/nasa-sentry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1scnv/nasa-sentry/issues"
+  },
+  "homepage": "https://github.com/1scnv/nasa-sentry#readme"
+}
