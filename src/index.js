@@ -13,15 +13,15 @@ async function loadSentry(){
             yearRangeMax: line["year_range_max"]
           })
     })
-    console.log(entries)
+    renderEntries(entries)
 }
 
-// function renderEntries(entries){
-//     entries.forEach(line =>{
-//         const text = `${line.id} | ${line.name} | ${line.yearRangeMin} | ${yearRangeMax}`
-//         console.log(text)
-//     })
+function renderEntries(entries){
+    entries.forEach(line =>{
+        const text = `${line.id} | ${line.name} | ${line.yearRangeMin} | ${line.yearRangeMax}`
+        console.log(text)
+    })
 
-// }
+}
 
 loadSentry()
